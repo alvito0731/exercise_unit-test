@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println(ewallet.Run([]string{"deposit", "deposit", "withdraw"}))
+	fmt.Println(ewallet.Run([]string{"deposit", "deposit", "deposit", "withdraw", "withdraw", "withdraw"}))
 }
